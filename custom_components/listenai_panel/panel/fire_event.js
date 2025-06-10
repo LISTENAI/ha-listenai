@@ -1,0 +1,1 @@
+const v=(l,u,b,e)=>{e=e||{},b=b??{};const c=new Event(u,{bubbles:e.bubbles===void 0?!0:e.bubbles,cancelable:!!e.cancelable,composed:e.composed===void 0?!0:e.composed});return c.detail=b,l.dispatchEvent(c),c};export{v as f};

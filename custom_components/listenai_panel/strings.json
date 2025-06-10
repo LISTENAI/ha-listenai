@@ -1,0 +1,12 @@
+{
+  "title": "联思中控大脑",
+  "step": {
+    "user": {
+      "title": "API 设置",
+      "description": "请输入 API Key。",
+      "data": {
+        "api_key": "API Key"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ha-listenai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd ha-listenai-panel-web && npm run dev",
+    "build": "cd ha-listenai-panel-web && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
