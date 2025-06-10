@@ -1,5 +1,5 @@
 
-DOMAIN = "listenai_panel"
+DOMAIN = "listenai_brain"
 
 MAX_LOG_ENTRIES = 100
 

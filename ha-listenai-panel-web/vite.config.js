@@ -34,7 +34,7 @@ export default defineConfig({
   ],
   base: './',
   build: {
-    outDir: '../custom_components/listenai_panel/panel',
+    outDir: '../custom_components/listenai_brain/panel',
     emptyOutDir: true,
     rollupOptions: {
       external: [

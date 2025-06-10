@@ -59,12 +59,12 @@ async def delete_logs_for_entity(hass, entity_id: str):
     await delete_log_store_by_entity(hass, entity_id)
 
 async def delete_all_logs(hass):
-    _LOGGER.info("✅ 准备删除所有 listenai_panel_*.json 日志文件")
+    _LOGGER.info("✅ 准备删除所有 listenai_brain_*.json 日志文件")
 
     storage_dir = Path(hass.config.path(".storage"))
     count = 0
 
-    for file in storage_dir.glob("listenai_panel_*.json"):
+    for file in storage_dir.glob("listenai_brain_*.json"):
         try:
             file.unlink()
             _LOGGER.info(f"🗑️ 删除日志文件: {file.name}")
