@@ -1,4 +1,4 @@
-import{i as a}from"./assets/lit-element-e618a7a4.js";const t=a`
+import{c as a}from"./assets/lit-element-7f78e8e7.js";const t=a`
   ha-card {
     display: flex;
     flex-direction: column;

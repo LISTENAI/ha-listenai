@@ -15,9 +15,9 @@ from .const import DOMAIN
 from .storage_api import setup_storage_ws_api,delete_all_logs
 from .listener import setup_listener, reload_listener
 # 路径常量
-PANEL_PATH = "listenai_brain"
+PANEL_PATH = "listenai_panel"
 STATIC_URL = "/listenai_static"
-STATIC_DIR = "custom_components/listenai_brain/panel"
+STATIC_DIR = "custom_components/listenai_panel/panel"
 
 VERSION = f"v={int(time.time())}"
 

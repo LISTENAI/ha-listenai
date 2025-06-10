@@ -5,7 +5,7 @@ from homeassistant.core import callback
 from homeassistant.const import CONF_API_KEY
 import voluptuous as vol
 
-DOMAIN = "listenai_brain"
+DOMAIN = "listenai_panel"
 # 加载与当前文件同级目录下的 pca-code.json
 HERE = os.path.dirname(__file__)
 PCA_PATH = os.path.join(HERE, "pca-code.json")

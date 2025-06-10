@@ -31,7 +31,7 @@ export function showErrorDialog(ev: Event | HTMLElement, error: string | Templat
 }
 
 /**
- * 根据 climate 实体的 supported_features 返回支持的功能名数组
+ * 根据 climate 实体的 supported_features 返回支持的功能名数组123
  * 判断条件supported_features 包含该特征位，或 stateObj.attributes.xxx_modes 实际存在并是数组
  */
 export function getAvailableClimateActionsFull(stateObj: any): { key: string; label: string; options?: string[]; }[] {

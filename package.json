@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "install": "cd ha-listenai-panel-web && npm  install",
     "dev": "cd ha-listenai-panel-web && npm run dev",
     "build": "cd ha-listenai-panel-web && npm run build"
   },
