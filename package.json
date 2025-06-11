@@ -1,6 +1,6 @@
 {
   "name": "ha-listenai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "install": "cd ha-listenai-panel-web && npm  install",
