@@ -1,14 +1,7 @@
 # 聆思中控大脑 HA 插件
 
-## 安装步骤
-### HACS 添加自定义存储库  
-在 Home Assistant 的 HACS 中，点击右上角的三个点，选择"自定义存储库"，并添加以下 URL:
-```bash
-https://github.com/LISTENAI/listenai_brain
-```
-
 ### 添加聆思中控大脑集成  
-进入 Home Assistant 的"集成"页面，搜索并添加"聆思中控大脑"。
+
 请按照以下步骤操作：  
 
 ### 操作步骤  
