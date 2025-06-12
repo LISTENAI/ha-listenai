@@ -35,4 +35,4 @@ https://github.com/LISTENAI/listenai_brain
 ## 配置说明
 
 ### API设置
-- **API密钥**：从聆思平台(LSPlatform)获取，用于访问API服务
+- **API密钥**：从聆思平台[(LSPlatform)](https://platform.listenai.com/keys)获取，用于访问API服务
