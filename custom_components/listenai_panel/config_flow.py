@@ -26,6 +26,9 @@ class ListenAiConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         self._data = {}
 
     async def async_step_user(self, user_input=None):
+         # 检查是否已存在配置条目
+        if self.hass.config_entries.async_entries(DOMAIN):
+            return self.async_abort(reason="Only a single configuration of Listenai panel is allowed.")
         if user_input is not None and CONF_API_KEY in user_input:
             self._data[CONF_API_KEY] = user_input[CONF_API_KEY]
             return await self.async_step_province()
